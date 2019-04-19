@@ -1,0 +1,15 @@
+{
+  "name": "Cloud Detector",
+  "version": "1.0",
+  "description": "Browser extension for checking which cloud the current page is running on.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://iplookup.azurewebsites.net/*",
+    "https://ipinfo.io/*"
+  ],
+  "manifest_version": 2
+}
